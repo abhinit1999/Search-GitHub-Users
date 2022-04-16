@@ -7,7 +7,7 @@ If You want to find any GitHub user and want to know all about their profile lik
 I have used React Js and GitHub User API to fetch the real time Data.
 
 
-# ScreenShot Of the Project
+# ScreenShots Of the Project
 
 <p align="center">
   <img src="https://github.com/abhinit1999/Search-GitHub-Users/blob/main/screenShot/Screenshot%20(33).png" width="350" title="Img1">
