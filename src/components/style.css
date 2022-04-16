@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    /* width: 100vw;
+    height: 100vh; */
+    background-color: rgb(185, 100, 100);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+margin-top: 30px;
+    width: 50vw;
+    height: 60vh;
+    background-color: #fff;
+    border-radius: 20px;
+
+}
+
+.heading {
+    color: rgb(182, 22, 206);
+    padding: 20px;
+
+
+}
+
+
+
+input[type=text]
+{
+    margin: 0;
+    padding: 10px;
+    width: 350px;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+.btn
+{
+width: 100px;
+padding: 10px;
+background-color: green;
+color: #fff;
+font-size: large;
+border-radius: 4px;
+}
+
+
+/* ShowUserData Styling */
+
+.imgcls img
+{
+ width: 100px;
+ margin-top: 5px;
+
+}
+.name
+{
+    color: rgb(46, 82, 65);
+    font-size: 15px;
+    font-style: italic;
+
+}
+.fllowers
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(212, 139, 30);
+}
+.fdata
+{
+    font-weight: bold;
+    color: rgb(17, 17, 79);
+}
+.repo
+{
+    font-size: 20px;
+    font-weight: 500; 
+    color: rgb(212, 139, 30); 
+}
+
+/* Making responsive */
+
+@media (min-width:300px ) {
+    
+    input[type=text]
+{
+    width: 50%;
+
+}
+    
+}
